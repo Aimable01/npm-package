@@ -1,0 +1,15 @@
+{
+  "name": "@kwizeraaimable/random_password",
+  "version": "1.0.0",
+  "description": "A random secure password generator",
+  "main": "randomPassword.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Aimable01/npm-package.git)"
+  },
+  "author": "KWIZERA Aimable",
+  "license": "ISC"
+}
