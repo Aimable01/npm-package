@@ -12,7 +12,14 @@ npm install @kwizeraaimable/random_password
 
 ### Usage
 
-const passwordGenerator = require('@kwizeraaimable/random_password');
+It's like paswordGenerator(length,includeNumbers(boolean),includeSpecialCharacters(boolean))
+length specifies how long you want the password to be
+If you set the includeNumbers boolean to true, the password will include numbers
+If you set the includeSpecialCharacters boolean to true, the password will include special characters
 
-const password = passwordGenerator.generatePassword(12);
-console.log(password); // Output: aH8jKs$2pL5f
+```javascript
+const passwordGenerator = require("@kwizeraaimable/random_password");
+const password = passwordGenerator(10, true, true);
+console.log(password);
+//outputs 10 characters including numbers and special characters
+```
